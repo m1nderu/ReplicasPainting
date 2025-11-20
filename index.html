@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Реплика картин</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-name">
+        <a class="logo-link" href="#">
+          <img class="logo" src="images/logo.svg" alt="Ink. House" />
+          <span class="logo-text">Ink. House</span>
+        </a>
+      </div>
+
+      <nav class="header-nav">
+        <ul class="navigation">
+          <li><a class="nav-link" href="#catalog">Репродукции</a></li>
+          <li><a class="nav-link" href="#collection">Новинки</a></li>
+          <li><a class="nav-link" href="#information">О нас</a></li>
+          <li>
+            <a class="nav-image" href="#">
+              <img src="images/VectorBuy.svg" alt="Корзина покупок"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="preview">
+        <img src="images/bird.png" alt="Нарисованая птица" />
+        <div class="preview-content">
+          <h1 class="preview-title">
+            ин от <span class="title-accent">Ink. House</span>
+          </h1>
+          <p class="preview-subtitle">
+            Высокое качество отрисовки на плотной бумаге или льняном холсте.
+            Редкие произведения, доступные цены.
+          </p>
+          <a class="button-product" href="#catalog">Продукция</a>
+        </div>
+      </section>
+
+      <section id="catalog">
+        <div class="catalog-switch">
+          <h2 class="catalog-title">Репродукции</h2>
+          <nav class="catalog-nav">
+            <ul class="navigation-switch">
+              <li><a class="nav-language" id="france" href="#">Франция</a></li>
+              <li>
+                <a class="nav-language" id="germany" href="#">Германия</a>
+              </li>
+              <li><a class="nav-language" id="england" href="#">Англия</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <img
+              class="card-image"
+              src="images/amur.png"
+              alt="Картина - Охота Амура" />
+            <p class="card-author"><cite>Марсель Руссо</cite></p>
+            <h3 class="card-name">Охота Амура</h3>
+            <p class="card-size">Холст, масло (50х80)</p>
+            <p class="card-prise">14 500 руб</p>
+            <a class="card-button" href="#">В корзину</a>
+          </article>
+
+          <article class="card">
+            <img
+              class="card-image"
+              src="images/dama.png"
+              alt="Картина - Дама с собачкой" />
+            <p class="card-author"><cite>Анри Селин</cite></p>
+            <h3 class="card-name">Дама с собачкой</h3>
+            <p class="card-size">Акрил, бумага (50х80)</p>
+            <p class="card-prise">16 500 руб</p>
+            <a class="card-button" href="#">В корзину</a>
+          </article>
+
+          <article class="card">
+            <img
+              class="card-image"
+              src="images/procedur.png"
+              alt="Картина - Процедура" />
+            <p class="card-author"><cite>Франсуа Дюпон</cite></p>
+            <h3 class="card-name">Процедура</h3>
+            <p class="card-size">Цветная литография (40х60)</p>
+            <p class="card-prise">20 000 руб</p>
+            <a class="card-button" href="#">В корзину</a>
+          </article>
+
+          <article class="card">
+            <img
+              class="card-image"
+              src="images/rose.png"
+              alt="Картина - Роза" />
+            <p class="card-author"><cite>Луи Детуш</cite></p>
+            <h3 class="card-name">Роза</h3>
+            <p class="card-size">Бумага, акрил (50х80)</p>
+            <p class="card-prise">12 000 руб</p>
+            <a class="card-button" href="#">В корзину</a>
+          </article>
+
+          <article class="card">
+            <img
+              class="card-image"
+              src="images/birds-eat.png"
+              alt="Картина - Птичья трапеза" />
+            <p class="card-author"><cite>Франсуа Дюпон</cite></p>
+            <h3 class="card-name">Птичья трапеза</h3>
+            <p class="card-size">Цветная литография (40х60)</p>
+            <p class="card-prise">22 500 руб</p>
+            <a class="card-button" href="#">В корзину</a>
+          </article>
+
+          <article class="card">
+            <img
+              class="card-image"
+              src="images/summer-fish.png"
+              alt="Картина - Пьер Моранж" />
+            <p class="card-author"><cite>Пьер Моранж</cite></p>
+            <h3 class="card-name">Пейзаж с рыбой</h3>
+            <p class="card-size">Цветная литография (40х60)</p>
+            <p class="card-prise">20 000 руб</p>
+            <a class="card-button" href="#">В корзину</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="collection">
+        <img src="images/man.png" alt="Картина со стариком" />
+        <div class="collection-header">
+          <img src="images/Star 2.svg" alt="Звезда" />
+          <h2 class="collection-title">Новая коллекция французских авторов</h2>
+        </div>
+        <div class="collection-information">
+          <p class="collection-text">
+            Сложно сказать, почему акционеры крупнейших компаний призывают нас к
+            новым свершениям, которые, в свою очередь, должны быть заблокированы
+            в рамках своих собственных рациональных ограничений.
+          </p>
+          <p class="collection-text">
+            Принимая во внимание показатели успешности, граница обучения кадров
+            предопределяет высокую востребованность направлений прогрессивного
+            развития.
+          </p>
+        </div>
+        <a class="collection-button" href="#">Ознакомиться</a>
+      </section>
+
+      <section id="information">
+        <img
+          class="information-image"
+          src="images/hand.png"
+          alt="Рамка картины и рука с кисточками" />
+        <div class="information-content">
+          <h2 class="information-title">Наша команда</h2>
+          <p class="information-subtitle">
+            Значимость этих проблем настолько очевидна, что базовый вектор
+            развития позволяет оценить значение экспериментов, поражающих
+            посвоей масштабности и грандиозности. Мы вынуждены отталкиваться
+            оттого, что консультация с широким активом.
+          </p>
+          <div class="information-images">
+            <img
+              class="image-expert"
+              src="images/expert-maria.svg"
+              alt="Эксперт Мария" />
+            <img
+              class="image-expert"
+              src="images/expert-sergey.svg"
+              alt="Эксперт Сергей" />
+            <img
+              class="image-expert"
+              src="images/expert-mikhail.svg"
+              alt="Эксперт Михаил" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-name">
+        <a class="logo-link" href="#">
+          <img class="logo" src="images/logo.svg" alt="Ink. House" />
+          <span class="logo-text">Ink. House</span>
+        </a>
+      </div>
+
+      <div class="footer-contact">
+        <p class="footer-number">+7 (999) 543-54-54</p>
+        <p>Мастерская</p>
+      </div>
+
+      <nav class="footer-nav">
+        <ul class="footer-navigation">
+          <li><a class="nav-main-link" href="#catalog">Репродукции</a></li>
+          <li><a class="nav-text" href="#">Франция</a></li>
+          <li><a class="nav-text" href="#">Германия</a></li>
+          <li><a class="nav-text" href="#">Англия</a></li>
+        </ul>
+
+        <ul class="footer-navigation">
+          <li><a class="nav-main-link" href="#collection">Новинки</a></li>
+          <li><a class="nav-text" href="#">2021</a></li>
+          <li><a class="nav-text" href="#">2020</a></li>
+        </ul>
+
+        <ul class="footer-navigation">
+          <li><a class="nav-main-link" href="#information">О нас</a></li>
+          <li><a class="nav-text" href="#">Художники</a></li>
+          <li><a class="nav-text" href="#">Менеджеры</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-media">
+        <ul class="footer-links">
+          <li>
+            <a class="footer-link" href="#"
+              ><img src="images/facebook.svg" alt="Facebook"
+            /></a>
+          </li>
+          <li>
+            <a class="footer-link" href="#"
+              ><img src="images/instagram.svg" alt="Instagram"
+            /></a>
+          </li>
+          <li>
+            <a class="footer-link" href="#"
+              ><img src="images/youtube.svg" alt="YouTube"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
